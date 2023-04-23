@@ -12,7 +12,7 @@ const OtpActivatePage = () => {
           style={{ gap: "2rem", marginBlock: "auto" }}
         >
           <div className="header | flex-col-end" style={{ gap: "20px" }}>
-            <img src="/images/logo.png" alt="" className="logo" />
+            <img src="/images/Logo.png" alt="" className="logo" />
             <div className="flex-col-end">
               <h1 className="fw-500 fs-32 text-black">ادخل الرمز</h1>
               <p className="fw-400 fs-18 text-neutral-400 text-right">

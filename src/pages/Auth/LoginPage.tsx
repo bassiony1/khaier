@@ -12,7 +12,7 @@ const LoginPage = () => {
           style={{ gap: "2rem" }}
         >
           <div className="header | flex-col-end" style={{ gap: "20px" }}>
-            <img src="/images/logo.png" alt="" className="logo" />
+            <img src="/images/Logo.png" alt="" className="logo" />
             <div className="flex-col-end">
               <p className="fw-500 fs-32 text-black">أهلا بك</p>
               <h1 className="fw-400 fs-22 text-neutral-400">
