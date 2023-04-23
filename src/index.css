@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+* {
+  font-size: initial;
+}
+::root {
+  --clr-primary-600: hsl(200, 68%, 30%);
+  --clr-primary-200: hsl(198, 20%, 75%);
+  --clr-primary-100: hsl(198, 30%, 92%);
+
+  --clr-secondary-700: hsl(5, 100%, 70%);
+  --clr-secondary-400: hsl(5, 100%, 84%);
+
+  --clr-neutral-400: hsl(0, 0%, 56%);
+  --clr-neutral-200: hsl(0, 0%, 71%);
+  --clr-neutral-100: hsl(0, 0%, 85%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsl(0, 0%, 0%);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+button:active {
+  outline: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+body {
+  min-height: 100dvh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+body.dark {
+  --clr-primary-600: #ffffff;
+  --clr-primary-200: #8fa8b8;
+  --clr-primary-100: #d6dce0;
+  --clr-secondary-700: #ffb900;
+  --clr-secondary-400: #ffe69c;
+  --clr-neutral-400: #bdbdbd;
+  --clr-neutral-200: #e0e0e0;
+  --clr-neutral-100: #ffffff;
+  --clr-white: #000000;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+.container {
+  width: min(100%, 1200px);
+  margin-inline: auto;
+}
