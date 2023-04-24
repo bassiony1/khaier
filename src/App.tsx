@@ -23,10 +23,6 @@ function App() {
         path="/password-reset/confirm"
         element={<PasswordResetConfirmPage />}
       />
-      <Route
-        path="/password-reset/confirm"
-        element={<PasswordResetConfirmPage />}
-      />
     </Routes>
   );
 }

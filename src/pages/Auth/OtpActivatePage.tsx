@@ -43,7 +43,7 @@ const OtpActivatePage = () => {
                 justifyContent: "space-between",
                 paddingBlock: "1rem",
               }}
-              inputType="number"
+              inputType="tel"
               inputStyle={{ width: "3em" }}
               shouldAutoFocus={true}
               renderInput={(props) => <input {...props} />}
