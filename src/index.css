@@ -102,9 +102,15 @@ input:is(:focus, :focus-within, :active) {
 .cursor-pointer {
   cursor: pointer;
 }
+.relative {
+  position: relative;
+}
 .container {
   width: min(100%, 1240px);
   margin-inline: auto;
+}
+.rounded {
+  border-radius: 100vw;
 }
 .form-container {
   width: min(100%, 600px);
@@ -303,4 +309,36 @@ input:is(:focus, :focus-within, :active) {
 .btn--outline {
   border: 1.5px solid var(--clr-neutral-100);
   color: var(--clr-black);
+}
+.logo {
+  max-width: 55px;
+}
+.profile-img-logo {
+  max-width: 40px;
+}
+.link-hover {
+  transition: 0.3s ease-in-out;
+}
+.link-hover:hover {
+  color: var(--clr-primary-600);
+}
+.link-active {
+  color: var(--clr-primary-600);
+  position: relative;
+}
+.link-active::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: -10px;
+  border-radius: 100vw;
+  left: 0;
+  background-color: var(--clr-primary-600);
+}
+
+.v-divider {
+  display: block;
+  width: 2px;
+  height: 30px;
 }

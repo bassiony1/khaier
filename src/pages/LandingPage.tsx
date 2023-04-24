@@ -1,5 +1,11 @@
+import Layout from "../hocs/Layout";
+
 const LandingPage = () => {
-  return <div>LandingPage</div>;
+  return (
+    <Layout>
+      <main></main>
+    </Layout>
+  );
 };
 
 export default LandingPage;

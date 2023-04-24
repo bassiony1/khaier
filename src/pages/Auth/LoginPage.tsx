@@ -170,9 +170,6 @@ const BG = styled.div`
 
 const Content = styled.div`
   padding: 2.5rem 2rem;
-  .logo {
-    max-width: 55px;
-  }
 
   .input-group .input-pass {
     position: relative;

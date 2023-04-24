@@ -12,7 +12,7 @@ import {
 function App() {
   return (
     <Routes>
-      <Route path="/our-mission" element={<LandingPage />} />
+      <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignUpPage />} />
       <Route path="/signup/activate" element={<OtpActivatePage />} />
