@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 type Props = {};
@@ -24,9 +25,12 @@ const CharitySection = (props: Props) => {
           المبلغ الذي تملكه بعد تحقق نصاب الزكاة، وبعد ذلك يظهر لك قيمة الزكاة
           الخاصة بها.
         </p>
-        <button className="btn btn--primary m-block-auto fs-20 fw-500">
+        <Link
+          to="/zaka/"
+          className="btn btn--primary m-block-auto fs-20 fw-500 no-underline"
+        >
           احسب زكاتك
-        </button>
+        </Link>
       </div>
     </Charity>
   );

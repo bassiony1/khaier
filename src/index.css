@@ -370,6 +370,10 @@ input:is(:focus, :focus-within, :active) {
   border: 1.5px solid var(--clr-primary-600);
   color: var(--clr-primary-600);
 }
+.btn--outline-secondary-700 {
+  border: 1.5px solid var(--clr-secondary-700);
+  color: var(--clr-secondary-700);
+}
 .logo {
   max-width: 55px;
 }
@@ -426,4 +430,13 @@ input:is(:focus, :focus-within, :active) {
 }
 .m-right-auto {
   margin-right: auto;
+}
+
+.header-title {
+  color: var(--clr-black);
+  font-size: 36px;
+  padding-block: 7rem 0rem;
+  padding-inline: 3rem;
+  font-weight: 500;
+  text-align: right;
 }
