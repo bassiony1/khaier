@@ -10,7 +10,7 @@
   --clr-neutral-200: #b5b5b5;
   --clr-neutral-100: #d9d9d9;
   --clr-white: #ffffff;
-  --clr-black: hsl(0, 0%, 0%);
+  --clr-black: hsl(0, 0%, 12%);
 }
 *,
 *::after,
@@ -111,6 +111,9 @@ input:is(:focus, :focus-within, :active) {
 }
 .rounded {
   border-radius: 100vw;
+}
+.circle {
+  border-radius: 100%;
 }
 .form-container {
   width: min(100%, 600px);
@@ -265,12 +268,34 @@ input:is(:focus, :focus-within, :active) {
 .w-100 {
   width: 100%;
 }
+.w-80 {
+  width: 80%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-40 {
+  width: 40%;
+}
+
 .h-100 {
   height: 100%;
 }
+
 .flex-col-end {
   display: flex;
   align-items: flex-end;
+  flex-direction: column;
+}
+.flex-col-center {
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .flex-space-between {
@@ -285,6 +310,10 @@ input:is(:focus, :focus-within, :active) {
 }
 .flex {
   display: flex;
+}
+.flex-group {
+  display: flex;
+  flex-wrap: wrap;
 }
 .no-underline {
   text-decoration: none;
@@ -341,4 +370,29 @@ input:is(:focus, :focus-within, :active) {
   display: block;
   width: 2px;
   height: 30px;
+}
+
+.grid-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.m-inline-auto {
+  margin-inline: auto;
+}
+.m-block-auto {
+  margin-block: auto;
+}
+
+.m-left-auto {
+  margin-left: auto;
+}
+.m-top-auto {
+  margin-top: auto;
+}
+.m-bottom-auto {
+  margin-bottom: auto;
+}
+.m-right-auto {
+  margin-right: auto;
 }

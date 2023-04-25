@@ -5,7 +5,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import styled from "styled-components";
 import useToggle from "../custom_hooks/useToggle";
 const Navbar = () => {
-  const isAuthenticated = true;
+  const isAuthenticated = false;
 
   return isAuthenticated ? <AuthenticatedUserNav /> : <GuestUserNav />;
 };
@@ -61,7 +61,7 @@ const GuestUserNav = () => {
           <li>
             <Link
               to="#"
-              className="text-neutral-400 fs-20 fw-500 link-active no-underline link-hover"
+              className="text-neutral-400 fs-20 fw-500 no-underline link-hover"
             >
               تواصل معنا
             </Link>
@@ -88,7 +88,7 @@ const GuestUserNav = () => {
           <li>
             <Link
               to="#"
-              className="text-neutral-400 fs-20 fw-500 no-underline link-hover text-right"
+              className="text-neutral-400 fs-20 fw-500 no-underline link-hover text-right link-active"
             >
               الرئيسية
             </Link>
@@ -104,7 +104,7 @@ const GuestUserNav = () => {
           <li>
             <Link
               to="#"
-              className="text-neutral-400 fs-20 fw-500 link-active no-underline link-hover"
+              className="text-neutral-400 fs-20 fw-500  no-underline link-hover"
             >
               تواصل معنا
             </Link>
@@ -131,7 +131,7 @@ const GuestUserNav = () => {
           <li>
             <Link
               to="#"
-              className="text-neutral-400 fs-20 fw-500 no-underline link-hover"
+              className="text-neutral-400 fs-20 fw-500 no-underline link-hover link-active"
             >
               الرئيسية
             </Link>
