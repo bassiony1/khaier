@@ -14,8 +14,8 @@ const HomePage = (props: Props) => {
   return (
     <Layout>
       <Slider>
-        <img src="public/images/slider-img1.png" alt="" />
-        <img src="public/images/slider-img1.png" alt="" />
+        <img src="images/slider-img1.png" alt="" />
+        <img src="images/slider-img1.png" alt="" />
       </Slider>
       <div className="container">
         <h2 className="header-title">حالات عاجلة للتبرع</h2>
@@ -69,12 +69,10 @@ const HomePage = (props: Props) => {
           className="w-100 flex"
           style={{ paddingBlock: "0rem 3rem", paddingInline: "3rem" }}
         >
-          <button className="btn btn--primary fs-20 fw-400">
-            عرض المزيد
-          </button>
+          <button className="btn btn--primary fs-20 fw-400">عرض المزيد</button>
         </div>
       </div>
-      <Sub/>
+      <Sub />
     </Layout>
   );
 };
