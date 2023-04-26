@@ -4,6 +4,7 @@ import GridList from "../components/GridList";
 import DonationCard from "../components/DonationCard";
 import Sub from "../components/Sub";
 import NormalHeader from "../components/NormalHeader";
+import SearchNotFound from "../components/SearchNotFound";
 
 type Props = {};
 
@@ -11,7 +12,7 @@ const SearchResultPage = (props: Props) => {
   return (
     <Layout>
       <NormalHeader title="نتائج البحث" max_height={270} />
-      <div className="container">
+      {/* <div className="container">
         <GridList>
           <DonationCard />
           <DonationCard />
@@ -26,7 +27,8 @@ const SearchResultPage = (props: Props) => {
           <DonationCard />
           <DonationCard />
         </GridList>
-      </div>
+      </div> */}
+      <SearchNotFound />
       <Sub />
     </Layout>
   );

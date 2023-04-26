@@ -27,7 +27,7 @@ const CharitySection = (props: Props) => {
         </p>
         <Link
           to="/zaka/"
-          className="btn btn--primary m-block-auto fs-20 fw-500 no-underline"
+          className="btn btn--primary m-block-auto fs-20 fw-500 no-underline w-100 text-center"
         >
           احسب زكاتك
         </Link>

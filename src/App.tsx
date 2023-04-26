@@ -40,14 +40,14 @@ function App() {
       <Route path="/categories/:name" element={<CategoryPage />} />
       <Route path="/charites/" element={<CharitesListPage />} />
       <Route path="/" element={<HomePage />} />
-
-      <Route path="/our-mission/" element={<LandingPage />} />
-      <Route path="/not-found" element={<NotFoundPage />} />
-
+      <Route path="/zaka/" element={<ZakaPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/our-service/" element={<OurServicePage />} />
+
       <Route path="/contact-us/" element={<ContactUsPage />} />
-      <Route path="/zaka/" element={<ZakaPage />} />
+
+      <Route path="/our-mission/" element={<LandingPage />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 }

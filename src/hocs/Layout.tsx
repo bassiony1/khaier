@@ -11,6 +11,7 @@ import CharityCard from "../components/CharityCard";
 import GridList from "../components/GridList";
 import Slider from "../components/Slider";
 import CategoryCard from "../components/CategoryCard";
+import Parteners from "../components/Parteners";
 
 type Props = {
   children: ReactNode;
@@ -40,15 +41,7 @@ const Layout = ({ children }: Props) => {
       <NormalHeader max_height={270} title="نتائج البحث" />
       <CategoryHeader imgPath="/images/food-header.png" title="طعام" />
       */}
-      {/* <div className="container">
-        <GridList>
-          <CategoryCard imgUrl="images/food-cat.png" title="طعام" />
-          <CategoryCard imgUrl="images/food-cat.png" title="طعام" />
-          <CategoryCard imgUrl="images/food-cat.png" title="طعام" />
-          <CategoryCard imgUrl="images/food-cat.png" title="طعام" />
-          <CategoryCard imgUrl="images/food-cat.png" title="طعام" />
-        </GridList>
-      </div> */}
+
       {children}
       <Footer />
     </>
