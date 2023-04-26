@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { BsBookmark, BsBookmarkFill } from "react-icons/bs";
-import { VscBookmark } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 type Props = {};
 
@@ -19,7 +18,7 @@ const DonationCard = (props: Props) => {
         <img src="/images/donation-img.png" alt="" />
         <div className="icon-container">
           {!CardData.isMarked ? (
-            <VscBookmark color="var(--clr-primary-600)" size={25} />
+            <BsBookmark color="var(--clr-primary-600)" size={25} />
           ) : (
             <BsBookmarkFill color="var(--clr-primary-600)" size={25} />
           )}
@@ -66,9 +65,9 @@ const Card = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  -webkit-box-shadow: 0px 0px 0px .3px rgba(0, 0, 0, 0.58);
-  -moz-box-shadow: 0px 0px 0px .3px rgba(0, 0, 0, 0.58);
-  box-shadow: 0px 0px 0px .3px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 0px 0px 0px 0.3px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 0px 0.3px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 0px 0.3px rgba(0, 0, 0, 0.58);
   .img-container {
     position: relative;
     .icon-container {

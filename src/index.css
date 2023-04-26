@@ -68,8 +68,9 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
-input {
+input , textarea{
   outline: none;
+  resize: none;
 }
 body {
   min-height: 100dvh;
@@ -79,16 +80,18 @@ body {
   font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 input,
-input {
+textarea {
   border-radius: 5px;
   border: 1.5px solid var(--clr-neutral-100);
   padding: 15px;
 }
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: var(--clr-neutral-100);
 }
 
-input:is(:focus, :focus-within, :active) {
+input:is(:focus, :focus-within, :active),
+textarea:is(:focus, :focus-within, :active) {
   border: 1.5px solid var(--clr-primary-600);
 }
 

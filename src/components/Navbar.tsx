@@ -60,7 +60,7 @@ const GuestUserNav = () => {
         <ul className="flex-center" style={{ gap: "50px" }}>
           <li>
             <Link
-              to="#"
+              to="/contact-us"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover"
             >
               تواصل معنا
@@ -69,7 +69,7 @@ const GuestUserNav = () => {
 
           <li>
             <Link
-              to="#"
+              to="/our-service"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover text-right"
             >
               خدماتنا
@@ -78,7 +78,7 @@ const GuestUserNav = () => {
 
           <li>
             <Link
-              to="#"
+              to="/about-us"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover"
             >
               من نحن
@@ -87,7 +87,7 @@ const GuestUserNav = () => {
 
           <li>
             <Link
-              to="#"
+              to="/"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover text-right link-active"
             >
               الرئيسية
@@ -103,7 +103,7 @@ const GuestUserNav = () => {
         <ul className="flex-center" style={{ gap: "50px" }}>
           <li>
             <Link
-              to="#"
+              to="/contact-us"
               className="text-neutral-400 fs-20 fw-500  no-underline link-hover"
             >
               تواصل معنا
@@ -112,7 +112,7 @@ const GuestUserNav = () => {
 
           <li>
             <Link
-              to="#"
+              to="/our-service"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover"
             >
               خدماتنا
@@ -121,7 +121,7 @@ const GuestUserNav = () => {
 
           <li>
             <Link
-              to="#"
+              to="/about-us"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover"
             >
               من نحن
@@ -130,7 +130,7 @@ const GuestUserNav = () => {
 
           <li>
             <Link
-              to="#"
+              to="/"
               className="text-neutral-400 fs-20 fw-500 no-underline link-hover link-active"
             >
               الرئيسية
