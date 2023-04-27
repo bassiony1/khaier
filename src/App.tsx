@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+
 import LandingPage from "./pages/LandingPage";
 import {
   LoginPage,
@@ -21,6 +22,7 @@ import ContactUsPage from "./pages/ContactUsPage";
 import ZakaPage from "./pages/ZakaPage";
 import CategoryPage from "./pages/CategoryPage";
 function App() {
+  
   return (
     <Routes>
       {/* Auth Routes */}
@@ -43,7 +45,6 @@ function App() {
       <Route path="/zaka/" element={<ZakaPage />} />
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/our-service/" element={<OurServicePage />} />
-
       <Route path="/contact-us/" element={<ContactUsPage />} />
 
       <Route path="/our-mission/" element={<LandingPage />} />

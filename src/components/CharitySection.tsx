@@ -1,17 +1,22 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 type Props = {};
 
 const CharitySection = (props: Props) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000, mirror: true });
+  }, []);
   return (
     <Charity className="container bg-secondary-100">
-      <div className="img-container flex-center">
+      <div className="img-container flex-center" data-aos="fade-right">
         <img src="/images/charity-img.png" alt="" className="w-80" />
       </div>
       <div
         className="right | flex-col-end"
+        data-aos="fade-left"
         style={{ paddingInline: "6rem", gap: "3rem" }}
       >
         <h2 className="fs-44 fw-400 w-100 text-right">
